@@ -1,0 +1,26 @@
+td {
+    border: 1px solid #ccc;
+}
+
+
+.DispCIN {
+    text-align: center;
+  }
+  
+  .DispCIN-header {
+    background-color: #00131b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+  }
+  
+  .Disp-dropdown-header{
+    background-color: rgb(26, 136, 233); 
+    border-color: #000;
+    color: #000;
+  }
+  

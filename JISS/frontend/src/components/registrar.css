@@ -1,0 +1,21 @@
+.Registrar {
+    text-align: center;
+  }
+  
+  .Registrar-header {
+    background-color: #7bcaec;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;    
+    align-items: center;    
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 3, 8);
+  }
+
+  .Registrar-dropdown-header{
+    background-color: rgb(8, 90, 161); 
+    border-color: #000;
+    color: #000;
+  }
+  

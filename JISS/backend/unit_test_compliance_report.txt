@@ -1,0 +1,61 @@
+anurat@anurat-Inspiron-3576:~/JISS/backend$ pytest -vv
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/anurat/JISS/backend
+collected 43 items                                                             
+
+test_app.py::test_lawyer PASSED                                          [  2%]
+test_app.py::test_judge PASSED                                           [  4%]
+test_app.py::test_register PASSED                                        [  6%]
+test_scheduling.py::test_schedule_case PASSED                            [  9%]
+test_scheduling.py::test_schedule_case_invalid PASSED                    [ 11%]
+test_scheduling.py::test_schedule_case_older PASSED                      [ 13%]
+test_scheduling.py::test_adjournment_details_add PASSED                  [ 16%]
+test_scheduling.py::test_adjournment_details_add_invalid PASSED          [ 18%]
+test_scheduling.py::test_adjournment_details_add_closed PASSED           [ 20%]
+test_scheduling.py::test_adjournment_details_add_nsched PASSED           [ 23%]
+test_scheduling.py::test_close_case_invalid PASSED                       [ 25%]
+test_scheduling.py::test_close_case_closed PASSED                        [ 27%]
+test_scheduling.py::test_close_case_pending PASSED                       [ 30%]
+test_searchs.py::test_enter_details_into_db1 PASSED                      [ 32%]
+test_searchs.py::test_enter_details_into_db2 PASSED                      [ 34%]
+test_searchs.py::test_enter_details_into_db3 PASSED                      [ 37%]
+test_searchs.py::test_search_by_key_judge PASSED                         [ 39%]
+test_searchs.py::test_search_by_key_lawyer PASSED                        [ 41%]
+test_searchs.py::test_search_by_key_judge2 PASSED                        [ 44%]
+test_searchs.py::test_search_by_key_lawyer2 PASSED                       [ 46%]
+test_searchs.py::test_search_by_id_judge PASSED                          [ 48%]
+test_searchs.py::test_search_by_id_lawyer PASSED                         [ 51%]
+test_searchs.py::test_search_by_id_judge2 PASSED                         [ 53%]
+test_searchs.py::test_search_by_id_lawyer2 PASSED                        [ 55%]
+test_searchs.py::test_search_by_id_judge3 PASSED                         [ 58%]
+test_searchs.py::test_search_by_id_lawyer3 PASSED                        [ 60%]
+test_status.py::test_resolved_case_list1 PASSED                          [ 62%]
+test_status.py::test_resolved_case_list2 PASSED                          [ 65%]
+test_status.py::test_unresolved_case_list PASSED                         [ 67%]
+test_status.py::test_court_cases_by_date PASSED                          [ 69%]
+test_status.py::test_case_status_query_resolved PASSED                   [ 72%]
+test_status.py::test_case_status_query_pending PASSED                    [ 74%]
+test_status.py::test_case_status_query_invalid PASSED                    [ 76%]
+test_status.py::test_search_vacant_slot PASSED                           [ 79%]
+test_status.py::test_add_to_slotlist PASSED                              [ 81%]
+test_users.py::test_addlawyer PASSED                                     [ 83%]
+test_users.py::test_addlawyer2 PASSED                                    [ 86%]
+test_users.py::test_addjudge PASSED                                      [ 88%]
+test_users.py::test_addjudge2 PASSED                                     [ 90%]
+test_users.py::test_removelawyer PASSED                                  [ 93%]
+test_users.py::test_removelawyer2 PASSED                                 [ 95%]
+test_users.py::test_removejudge PASSED                                   [ 97%]
+test_users.py::test_getuserlist PASSED                                   [100%]
+
+======================== 43 passed in 109.10s (0:01:49) ========================
+
+
+
+Manual Testing was done following the test suite
+Seq 1 Lawyer :Passed
+Seq 2 Judge :Passed
+Seq 3 Registrar:Passed
+anurat@anurat-Inspiron-3576:~/JISS/backend$ 
+
